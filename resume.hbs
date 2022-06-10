@@ -398,6 +398,43 @@
             </section>
         {{/if}}
 
+        {{#if resume.certificates.length}}
+            <section class="section">
+                <h2 class='section-title'>Certificates</h2>
+                <section id="certificates">
+
+                    {{#each resume.certificates}}
+                        {{#if date}}
+                            <div class="date">
+                                {{DMY date}}
+                            </div>
+                        {{/if}}
+
+                        <div class="item">
+                            {{#if name}}
+                                <div class="name">
+                                    {{name}}
+                                </div>
+                            {{/if}}
+
+                            {{#if issuer}}
+                                <div class="awarder">
+                                    {{issuer}}
+                                </div>
+                            {{/if}}
+
+                            {{#if url}}
+                                <div class="summary">
+                                    <a href="{{url}}">Details</a></p>
+                                </div>
+                            {{/if}}
+                        </div>
+                    {{/each}}
+                </section>
+            </section>
+        {{/if}}
+
+
         {{#if resume.publications.length}}
             <section class="section">
                 <h2 class='section-title'>Publications</h2>
