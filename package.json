@@ -5,7 +5,7 @@
 	"author": "Doug Ferris <priorax@gmail.com>",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/priorax/jsonresume-theme-spartan.git"
+		"url": "https://github.com/priorax/jsonresume-theme-spartan-extended.git"
 	},
 	"license": "MIT",
 	"dependencies": {
