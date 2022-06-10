@@ -1,6 +1,6 @@
 {
 	"name": "jsonresume-theme-spartan-extended-certs",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"description": "Extended version of the spartan them to a extended JSON resume format to include something else",
 	"author": "Doug Ferris <priorax@gmail.com>",
 	"repository": {
