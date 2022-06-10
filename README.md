@@ -4,6 +4,8 @@ _Forked from [jsonresume-theme-spartan](https://www.npmjs.com/package/jsonresume
 
 This is an extended version of the json resume theme spartan. There was a couple things I didn't like about the original theme and wanted it to support some custom fields in the resume too.
 
+Modified to include certs section.
+
 ## Getting started
 
 This is a theme for JSON Resume. It is available via npm:
