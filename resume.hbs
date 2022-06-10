@@ -404,6 +404,21 @@
                 <section id="certificates">
 
                     {{#each resume.certificates}}
+                        <header>
+                            {{#if name}}
+                                <h3>
+                                <span class="name">
+                                    {{name}}
+                                </span>
+                                {{#if issuer}}
+                                <span class="issuer">
+                                    - {{issuer}}
+                                </span>
+                            {{/if}}
+                            </h3>
+                            {{/if}}
+
+                        </header>
                         {{#if date}}
                             <div class="date">
                                 {{DMY date}}
@@ -411,18 +426,6 @@
                         {{/if}}
 
                         <div class="item">
-                            {{#if name}}
-                                <div class="name">
-                                    {{name}}
-                                </div>
-                            {{/if}}
-
-                            {{#if issuer}}
-                                <div class="awarder">
-                                    {{issuer}}
-                                </div>
-                            {{/if}}
-
                             {{#if url}}
                                 <div class="summary">
                                     <a href="{{url}}">Details</a></p>
