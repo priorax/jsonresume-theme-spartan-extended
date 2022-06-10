@@ -2,7 +2,7 @@
 	"name": "jsonresume-theme-spartan-extended-certs",
 	"version": "0.5.0",
 	"description": "Extended version of the spartan them to a extended JSON resume format",
-	"author": "Doug Ferriis <aaron.abm@gmail.com>",
+	"author": "Doug Ferris <priorax@gmail.com>",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/priorax/jsonresume-theme-spartan.git"
